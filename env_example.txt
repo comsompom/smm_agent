@@ -1,0 +1,39 @@
+# Social Media Bot Configuration
+# Copy this file to .env and fill in your actual API keys
+
+# Telegram Configuration
+# Get bot token from @BotFather on Telegram
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
+# Channel ID (e.g., @channelname or -1001234567890)
+TELEGRAM_CHANNEL_ID=your_telegram_channel_id_here
+
+# Discord Configuration
+# Get bot token from Discord Developer Portal
+DISCORD_BOT_TOKEN=your_discord_bot_token_here
+# Channel ID (right-click channel -> Copy ID)
+DISCORD_CHANNEL_ID=your_discord_channel_id_here
+
+# Facebook Configuration
+# Get access token from Facebook Developer Portal
+FACEBOOK_ACCESS_TOKEN=your_facebook_access_token_here
+# Group ID (from group URL)
+FACEBOOK_GROUP_ID=your_facebook_group_id_here
+
+# X (Twitter) Configuration
+# Get these from Twitter Developer Portal
+X_API_KEY=your_x_api_key_here
+X_API_SECRET=your_x_api_secret_here
+X_ACCESS_TOKEN=your_x_access_token_here
+X_ACCESS_TOKEN_SECRET=your_x_access_token_secret_here
+X_BEARER_TOKEN=your_x_bearer_token_here
+
+# NASA APOD Configuration
+# Get your free API key from https://api.nasa.gov/
+# Default key is provided but you can use your own
+NASA_API_KEY=api_key
+
+# General Configuration
+# Delay between posts to avoid rate limiting (in seconds)
+POST_DELAY=5
+# Maximum number of retries for failed posts
+MAX_RETRIES=3
