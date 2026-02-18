@@ -17,7 +17,7 @@ class NASAAPOD:
         try:
             params = {
                 'api_key': self.api_key,
-                'date': datetime.now().strftime('%Y-%m-%d')
+                # 'date': datetime.now().strftime('%Y-%m-%d')
             }
             
             response = requests.get(self.base_url, params=params, timeout=30)
